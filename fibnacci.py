@@ -9,5 +9,5 @@ def fibonacci(n):
 
 # Example usage:
 if __name__ == "__main__":
-    num_terms = 10
+    num_terms = 5
     print(f"Fibonacci series up to {num_terms} terms: {fibonacci(num_terms)}")
