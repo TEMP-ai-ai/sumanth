@@ -4,7 +4,7 @@ def fibonacci(n):
     a, b = 0, 1
     while len(series) < n:
         series.append(a)
-        a, b = b, a - b
+        a, b = b, a + b
     return series
 
 # Example usage:
